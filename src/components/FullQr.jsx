@@ -1,5 +1,5 @@
 import React from 'react'
-import Qrgenerator from './QRgenerator'
+import QRgenerator from './QRgenerator'
 
 const FullQr = () => {
   return (
