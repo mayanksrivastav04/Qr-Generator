@@ -42,7 +42,7 @@ const QRgenerator = () => {
           className="m-4"
           style={qrValue == "" ? { color: "red" } : { color: "green" }}
         ></p>
-        <div className="flex flex-col lg:flex-row gap-4">
+        <div className="flex flex-col md:flex-row lg:flex-row gap-4">
           <button
             className="bg-amber-300 rounded-2xl py-2 px-4 font-bold hover:bg-amber-500 cursor-pointer"
             onClick={handleClick}

@@ -6,7 +6,7 @@ const App = () => {
   return (
     <div className="flex flex-col justify-center items-center h-screen">
       <FullQr />
-      <div className="flex justify-between items-center gap-4 mt-5 flex-col lg:flex-row">
+      <div className="flex justify-between items-center gap-4 mt-5 flex-col md:flex-row lg:flex-row">
         <div>
           <h3 className="text-2xl font-medium">Mayank Srivastav</h3>
           <p>mastermayank786@gmail.com</p>
