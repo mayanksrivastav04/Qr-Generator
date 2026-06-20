@@ -4,7 +4,7 @@ import { QRCodeCanvas } from "qrcode.react";
 import DownloadQr from "./DownloadQr";
 // import './index.css'
 
-const Qrgenerator = () => {
+const QRgenerator = () => {
   const [text, setText] = useState("");
   const [qrValue, setQrValue] = useState("");
 
@@ -56,4 +56,4 @@ const Qrgenerator = () => {
   );
 };
 
-export default Qrgenerator;
+export default QRgenerator;
